@@ -18,6 +18,11 @@ const notes = [
     id: 3,
     title: "Hardeware vs. Software",
     message: "Q. What's the difference between hardware and software? A. You can hit your hardware with a hammer, but you can only curse at your software."
+  },
+  {
+    id: 4,
+    title: "Big Idea",
+    message: "Eat more sushi."
   }
 ];
 
