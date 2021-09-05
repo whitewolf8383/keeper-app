@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
+import Fab from '@material-ui/core/Fab';
 
 function CreateArea(props) {
 
@@ -40,9 +42,8 @@ function CreateArea(props) {
           onChange={handleChange}
           value={note.content} 
           placeholder="Take a note..." 
-          rows="3"
         />
-        <button onClick={submitNote}>Add</button>
+        <button onClick={submitNote}>+</button>
       </form>
     </div>
   );
