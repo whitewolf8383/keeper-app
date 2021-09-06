@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
-import Fab from '@material-ui/core/Fab';
 
 function CreateArea(props) {
 
